@@ -1,0 +1,58 @@
+/* Flexbox container 1 styling */
+.flexbox-container01 {
+  display: flex;
+  height: 50px;
+  margin-bottom: 30px;
+}
+
+/* First item in Flexbox container 1 */
+.item1 {
+  background-color: pink;
+  width: 100px;
+  display: flex;
+  align-items: center; /* Centers content vertically */
+  justify-content: center; /* Centers content horizontally */
+}
+
+/* Second item in Flexbox container 1 */
+.item2 {
+  background-color: lightblue;
+  width: 200px;
+}
+
+/* Styling for span inside item1 */
+.item1 > span {
+  background-color: black;
+  color: white;
+}
+
+/* Flexbox container 2 styling */
+.flexbox-container02 {
+  display: flex;
+  height: 50px;
+}
+
+/* Pink div within Flexbox container 2 */
+.pink-div {
+  width: 100px;
+  background-color: pink;
+}
+
+/* Light blue div within Flexbox container 2 */
+.lighblue-div {
+  width: 200px;
+  background-color: lightblue;
+}
+
+/* Row 2 styling within lighblue-div */
+.item02 {
+  display: flex;
+  align-items: center; /* Centers items vertically */
+  justify-content: space-between; /* Spaces items evenly */
+}
+
+/* Styling for span elements within item02 */
+.item02 > span {
+  background-color: black;
+  color: white;
+}
